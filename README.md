@@ -3,9 +3,11 @@
 > [!IMPORTANT]
 > **This repository is archived. Development continues at [dougiteixeira/proxmoxve](https://github.com/dougiteixeira/proxmoxve).**
 >
-> Everything developed here has been merged back into the original project and released there as **5.0.0** — I now maintain it there together with [@dougiteixeira](https://github.com/dougiteixeira), who created the integration. If you installed from this repository through HACS, remove it from your custom repositories and add the integration from the default HACS store (or from `dougiteixeira/proxmoxve`) instead; your entities and history stay, since the domain is the same.
+> I now maintain the integration there together with [@dougiteixeira](https://github.com/dougiteixeira), who created it. Upstream **5.0.0** carries everything up to **v4.4.3** from here, plus a diagnostics fix. The v4.5 features — automatic discovery, update entities, storage sensors, snapshot and suspend buttons, backup runs — are **not upstream yet**; they follow as a second pull request and ship there as 5.1.0.
 >
-> Nothing here will be updated any more. Issues and pull requests go to the original repository.
+> If you installed from this repository through HACS: remove it from your custom repositories and add the integration from the default HACS store (or from `dougiteixeira/proxmoxve`) instead. Your entities and history stay, since the domain is the same. If you rely on the v4.5 features, wait for upstream 5.1.0 before switching — 5.0.0 would be a step back for you. v4.5.2 here keeps working meanwhile; it just receives no further updates.
+>
+> Issues and pull requests go to the original repository.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/5b5a8c5b-885b-4233-a858-2e78b97d8c74">
